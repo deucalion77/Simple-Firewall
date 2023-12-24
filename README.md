@@ -14,6 +14,8 @@ before running install the nessesary libries
 
 
 Add following command before running
+
+
  iptables -I INPUT -d 192.168.0.0/16 -j NFQUEUE --queue-num 1
 
 
